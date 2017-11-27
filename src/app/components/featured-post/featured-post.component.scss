@@ -1,0 +1,26 @@
+:host {
+  display: block;
+  margin-bottom: 45px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.25;
+  font-weight: 600;
+  color: white;
+}
+
+p {
+  color: #b9c9da;
+  font-size: 22px;
+  line-height: 1.45;
+  margin-top: 14px;
+}
+
+.action-btns a {
+  font-size: 15px;
+
+  &:hover i {
+    color: red;
+  }
+}
