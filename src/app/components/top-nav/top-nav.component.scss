@@ -1,0 +1,12 @@
+a {
+  font-weight: 600;
+
+  &.logo {
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  &.btn {
+    margin-top: 3px;
+  }
+}

@@ -7,11 +7,13 @@ import { routing } from './app.routes';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { TopNavComponent } from './components/top-nav/top-nav.component';
 
 @NgModule(<NgModule>{
   declarations: [
     AppComponent,
     HomeComponent,
+    TopNavComponent,
   ],
   imports: [
     NgbModule.forRoot(),
