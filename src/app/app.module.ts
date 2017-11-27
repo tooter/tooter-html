@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { TopNavComponent } from './components/top-nav/top-nav.component';
 import { FeaturedPostComponent } from './components/featured-post/featured-post.component';
+import { ForumPostsWidgetComponent } from './components/forum-posts-widget/forum-posts-widget.component';
+import { ForumPostWidgetItemComponent } from './components/forum-posts-widget/forum-post-widget-item/forum-post-widget-item.component';
 
 @NgModule(<NgModule>{
   declarations: [
@@ -16,6 +18,8 @@ import { FeaturedPostComponent } from './components/featured-post/featured-post.
     HomeComponent,
     TopNavComponent,
     FeaturedPostComponent,
+    ForumPostsWidgetComponent,
+    ForumPostWidgetItemComponent,
   ],
   imports: [
     NgbModule.forRoot(),
