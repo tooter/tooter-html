@@ -14,6 +14,7 @@ import { ForumPostWidgetItemComponent } from './components/forum-posts-widget/fo
 import { ArticleCardComponent } from './components/article-card/article-card.component';
 import { AboutUsWidgetComponent } from './components/about-us-widget/about-us-widget.component';
 import { SubscribeWidgetComponent } from './components/subscribe-widget/subscribe-widget.component';
+import { MainSidebarComponent } from './components/main-sidebar/main-sidebar.component';
 
 @NgModule(<NgModule>{
   declarations: [
@@ -26,6 +27,7 @@ import { SubscribeWidgetComponent } from './components/subscribe-widget/subscrib
     ArticleCardComponent,
     AboutUsWidgetComponent,
     SubscribeWidgetComponent,
+    MainSidebarComponent,
   ],
   imports: [
     NgbModule.forRoot(),
