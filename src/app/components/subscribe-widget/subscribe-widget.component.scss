@@ -1,0 +1,13 @@
+input.form-control {
+  background: #4e4e4e;
+  border: none;
+  outline: none;
+  padding: 10px;
+  transition: background 0.4s;
+  color: white;
+
+  &:focus {
+    background: white;
+    color: #222222;
+  }
+}
