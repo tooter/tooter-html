@@ -1,12 +1,26 @@
 .card {
   background: #222;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   text-align: center;
+}
+
+.author-img {
+  display: block;
+  text-align: center;
+
+  img {
+    width: 104px;
+    position: relative;
+    top: -80px;
+    border-radius: 100px;
+    border: 8px solid #181818;
+    margin-bottom: -60px;
+  }
 }
 
 .card-title {
   color: white;
-  font-size: 19px;
+  font-size: 22px;
   line-height: 1.35;
 }
 
