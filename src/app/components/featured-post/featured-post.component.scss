@@ -3,6 +3,10 @@
   margin-bottom: 45px;
 }
 
+.featured-title {
+  display: block;
+}
+
 h1 {
   font-size: 40px;
   line-height: 1.25;
@@ -19,6 +23,7 @@ p {
 
 .action-btns a {
   font-size: 15px;
+  display: inline-block;
 
   &:hover i {
     color: red;

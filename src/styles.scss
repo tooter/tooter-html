@@ -1,6 +1,6 @@
 body {
-  background: black;
-  color: #bac6ca;
+  background: #181818;
+  color: #d3d3d3;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
 }
@@ -20,3 +20,33 @@ a {
   border-radius: 3px;
   padding: 4px 8px;
 }
+
+.btn {
+  border-radius: 3px;
+}
+
+.scale-out {
+  transition: transform 120ms;
+}
+
+.scale-out:hover {
+  transform: scale(1.04);
+}
+
+.scale-out-sm {
+  transition: transform 140ms;
+}
+
+.scale-out-sm:hover {
+  transform: scale(1.03);
+}
+
+.scale-out-lg {
+  transition: transform 160ms;
+}
+
+.scale-out-lg:hover {
+  transform: scale(1.05);
+}
+
+

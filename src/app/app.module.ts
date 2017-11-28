@@ -11,6 +11,7 @@ import { TopNavComponent } from './components/top-nav/top-nav.component';
 import { FeaturedPostComponent } from './components/featured-post/featured-post.component';
 import { ForumPostsWidgetComponent } from './components/forum-posts-widget/forum-posts-widget.component';
 import { ForumPostWidgetItemComponent } from './components/forum-posts-widget/forum-post-widget-item/forum-post-widget-item.component';
+import { ArticleCardComponent } from './components/article-card/article-card.component';
 
 @NgModule(<NgModule>{
   declarations: [
@@ -20,6 +21,7 @@ import { ForumPostWidgetItemComponent } from './components/forum-posts-widget/fo
     FeaturedPostComponent,
     ForumPostsWidgetComponent,
     ForumPostWidgetItemComponent,
+    ArticleCardComponent,
   ],
   imports: [
     NgbModule.forRoot(),
