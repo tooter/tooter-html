@@ -10,10 +10,20 @@
     </div>
 
     <div class="row">
+      <div class="col-lg-12">
+        <app-article-card></app-article-card>
+      </div>
+
       <div class="col-lg-6">
         <app-article-card></app-article-card>
       </div>
 
+      <div class="col-lg-6">
+        <app-article-card></app-article-card>
+      </div>
+      <div class="col-lg-6">
+        <app-article-card></app-article-card>
+      </div>
       <div class="col-lg-6">
         <app-article-card></app-article-card>
       </div>
@@ -23,21 +33,30 @@
 
   <!-- Discussion items -->
   <div class="col-lg-4">
-    <a href="#" class="badge badge-primary">Discussions</a>
-    <app-forum-posts-widget></app-forum-posts-widget>
+    <div class="row">
+      <div class="col">
+        <a href="#" class="badge badge-primary">Discussions</a>
+        <app-forum-posts-widget></app-forum-posts-widget>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <a href="#" class="badge badge-primary">Key Links</a>
+        <p class="social-links">
+          <a class="scale-out-lg mr-3" href="#"><i class="fa fa-github fa-3x"></i></a>
+          <a class="scale-out-lg mr-3" href="#"><i class="fa fa-twitter fa-3x"></i></a>
+          <a class="scale-out-lg mr-3" href="#"><i class="fa fa-facebook-official fa-3x"></i></a>
+          <a class="scale-out-lg mr-3" href="#"><i class="fa fa-slack fa-3x"></i></a>
+          <a class="scale-out-lg mr-3" href="#"><i class="fa fa-instagram fa-3x"></i></a>
+        </p>
+        <ul class="list-unstyled contact-links">
+          <li class="scale-out-sm"><a href="#">Contact Us <i class="fa fa-arrow-right float-right"></i></a></li>
+          <li class="scale-out-sm"><a href="#">About <i class="fa fa-arrow-right float-right"></i></a></li>
+          <li class="scale-out-sm"><a href="#">Privacy Policy <i class="fa fa-arrow-right float-right"></i></a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 
-</div>
-
-<!-- Other text items -->
-<div class="row">
-  <div class="col-lg-4">
-    <app-article-card></app-article-card>
-  </div>
-  <div class="col-lg-4">
-    <app-article-card></app-article-card>
-  </div>
-  <div class="col-lg-4">
-    <app-article-card></app-article-card>
-  </div>
 </div>

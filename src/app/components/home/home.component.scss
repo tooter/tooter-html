@@ -1,3 +1,21 @@
 .badge {
   margin-bottom: 25px;
 }
+
+.contact-links {
+  margin-top: 25px;
+  a {
+    font-size: 16px;
+    padding: 12px 20px;
+    background: #222222;
+    display: block;
+
+    &:hover i.fa {
+      color: red;
+    }
+  }
+}
+
+.social-links a {
+  display: inline-block;
+}
