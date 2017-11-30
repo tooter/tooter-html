@@ -15,7 +15,7 @@ import { ArticleCardComponent } from './components/article-card/article-card.com
 import { AboutUsWidgetComponent } from './components/about-us-widget/about-us-widget.component';
 import { SubscribeWidgetComponent } from './components/subscribe-widget/subscribe-widget.component';
 import { MainSidebarComponent } from './components/main-sidebar/main-sidebar.component';
-import { SocialWidgetComponent } from './components/social-widget/social-widget.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule(<NgModule>{
   declarations: [
@@ -29,7 +29,7 @@ import { SocialWidgetComponent } from './components/social-widget/social-widget.
     AboutUsWidgetComponent,
     SubscribeWidgetComponent,
     MainSidebarComponent,
-    SocialWidgetComponent,
+    FooterComponent,
   ],
   imports: [
     NgbModule.forRoot(),
