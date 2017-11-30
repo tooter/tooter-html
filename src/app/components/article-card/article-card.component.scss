@@ -1,21 +1,7 @@
 .card {
   background: #222;
   margin-bottom: 70px;
-  text-align: center;
-}
-
-.author-img {
-  display: block;
-  text-align: center;
-
-  img {
-    width: 104px;
-    position: relative;
-    top: -80px;
-    border-radius: 100px;
-    border: 8px solid #181818;
-    margin-bottom: -60px;
-  }
+  position: relative;
 }
 
 .card-title {
@@ -32,4 +18,22 @@
 
 .card-block {
   margin: 30px 25px;
+}
+
+.card-footer {
+    //background: #333333;
+}
+
+.author-img {
+  display: block;
+  text-align: center;
+
+  img {
+    width: 104px;
+    position: relative;
+    top: -80px;
+    border-radius: 100px;
+    border: 8px solid #181818;
+    margin-bottom: -60px;
+  }
 }
