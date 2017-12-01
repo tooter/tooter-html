@@ -16,6 +16,7 @@ import { AboutUsWidgetComponent } from './components/about-us-widget/about-us-wi
 import { SubscribeWidgetComponent } from './components/subscribe-widget/subscribe-widget.component';
 import { MainSidebarComponent } from './components/main-sidebar/main-sidebar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PostDetailComponent } from './components/post-detail/post-detail.component';
 
 @NgModule(<NgModule>{
   declarations: [
@@ -30,6 +31,7 @@ import { FooterComponent } from './components/footer/footer.component';
     SubscribeWidgetComponent,
     MainSidebarComponent,
     FooterComponent,
+    PostDetailComponent,
   ],
   imports: [
     NgbModule.forRoot(),
