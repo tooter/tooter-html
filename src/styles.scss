@@ -68,4 +68,8 @@ a {
   border-radius: 3px;
   margin-bottom: 25px;
   font-size: 16px;
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
 }
